@@ -1,45 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:background="#FFF"
-    android:padding="16dp">
+    android:orientation="vertical"
+    android:padding="16dp" >
 
     <TextView
         android:id="@+id/dialog_custom_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="8dp"
         android:textColor="#474747"
         android:textSize="22sp"
-        android:padding="8dp"
-        android:visibility="gone"/>
+        android:visibility="gone" />
 
-    <TextView
-        android:id="@+id/dialog_custom_content"
-        android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
-        android:textColor="#999999"
-        android:textSize="18sp"
-        android:padding="8dp"
-        android:visibility="gone"/>
+    <FrameLayout
+        android:id="@+id/dialog_Content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </FrameLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right|center_vertical"
-        android:paddingTop="8dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingTop="8dp" >
 
         <Button
             android:id="@+id/dialog_custom_cancel"
             android:layout_width="88dp"
             android:layout_height="36dp"
             android:background="#FFF"
-            android:textSize="14sp"
             android:textColor="#212121"
-            android:visibility="gone"/>
+            android:textSize="14sp"
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/dialog_custom_confirm"
@@ -48,7 +44,7 @@
             android:background="#FFF"
             android:textColor="@color/aqua"
             android:textSize="14sp"
-            android:visibility="gone"/>
+            android:visibility="gone" />
     </LinearLayout>
 
 </LinearLayout>

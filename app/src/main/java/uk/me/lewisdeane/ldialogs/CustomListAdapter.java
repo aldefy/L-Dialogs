@@ -43,7 +43,7 @@ public class CustomListAdapter extends ArrayAdapter<String> {
 
         item.setGravity(Gravity.LEFT | Gravity.CENTER_VERTICAL);
 
-        if(CustomListDialog.mIsItemsCenterAligned)
+        if(CustomListDialog.mIsCenterAligned)
             item.setGravity(Gravity.CENTER);
 
         try {
