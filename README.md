@@ -2,6 +2,18 @@
 
 Changes : Custom Layout or view can be initialized 
 
+See these :
+
+![Just a demo](https://github.com/aldefy/L-Dialogs/blob/master/img/device-2014-08-22-160226.png "See the diff")
+
+![Original](https://github.com/aldefy/L-Dialogs/blob/master/img/device-2014-08-22-160236.png "only text")
+
+![Custom](https://github.com/aldefy/L-Dialogs/blob/master/img/device-2014-08-22-162643.png "All Sorts of possibilites ")
+
+
+
+
+
 * * *
 
 A small library replicating the new dialogs in android L.
