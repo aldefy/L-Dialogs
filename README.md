@@ -1,5 +1,7 @@
 # L-Dialogs
 
+Changes : Custom Layout or view can be initialized 
+
 * * *
 
 A small library replicating the new dialogs in android L.
